@@ -35,15 +35,15 @@ DEBUG = True
 # Application definition
 
 INSTALLED_APPS = [
-    'whitenoise.runserver_nostatic',
+    # 'whitenoise.runserver_nostatic',
+    'rest_framework',
+    'corsheader',
     'django.contrib.admin',
     'django.contrib.auth',
     'django.contrib.contenttypes',
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-    'rest_framework',
-    'corsheader',
     'yourProject.apps.yourProjectconfig'
 ]
 CORS_ORIGIN_ALLOW_ALL = True
