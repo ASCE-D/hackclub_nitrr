@@ -21,6 +21,7 @@ wfastcgi = "==3.0.0"
 whitenoise = "==6.0.0"
 Django = "==3.2.9"
 vaderSentiment = "==3.3.2"
+djangorestframework = "==3.13.1"
 
 [dev-packages]
 
