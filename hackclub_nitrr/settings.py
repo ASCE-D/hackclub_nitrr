@@ -88,10 +88,10 @@ WSGI_APPLICATION = 'hackclub_nitrr.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql_psycopg2',
-        'NAME': 'dd3c1iia8b63j6',
+        'NAME': 'd74aeijuhhrqe1',
         'USER': 'dchvpyonqccevd',
-        'PASSWORD': 'a8d2f4983a75da63949c1c9f14262678120e87a166f01abf937789615c2bffff',
-        'HOST': 'ec2-3-217-113-25.compute-1.amazonaws.com',
+        'PASSWORD': 'bb130ada82b90d09e75e89aeec5922176775067ed41448d4f220e3fb9a49b135',
+        'HOST': 'ec2-107-22-238-112.compute-1.amazonaws.com',
         'PORT': '5432',
     }
 }
