@@ -4,6 +4,6 @@ from yourProject import views
 
 
 urlpatterns = [
-    url('r^department$', views.departmentApi),
-    url('r^department/([0-9]+)$')
+    url(r'^projectDetails$', views.ProjectDetailsApi),
+    url(r'^projectDetails/([0-9]+)$', views.ProjectDetailsApi)
 ]
